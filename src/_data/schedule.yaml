@@ -1,0 +1,212 @@
+
+weeks:
+
+- weekNum: 1
+  weekTopic: Intro & arrays
+  days:
+    - weekday: Wed
+      date: "13/10/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+      topics:
+      - Introduction to algorithms and data structure
+      - Abstract Data Types
+
+      materials: |
+        <!--
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 5 "algorithm analysis"
+
+        &nbsp; \
+        <span>Lecture slides:</span>{: class="materials-subhead" :} \
+        [week1-lecture-slides.zip][week1-slides]
+
+        [week1-slides]: lectures/week1-lecture-slides.zip
+        -->
+
+        {{ "/docs/lectures/week1-lecture-slides.zip" | relative_url }}
+
+
+    - weekday: Thurs
+      date: "14/10/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+      topics:
+      - Java interfaces and generic types
+      - Implementing stacks and queues with arrays
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 6.6 "stacks and queues"
+
+
+
+- weekNum: 2
+  weekTopic: Lists & complexity
+  days:
+    - weekday: Wed
+      date: "20/10/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+      topics:
+      - Linked lists
+      - Implementing stacks and queues with linked lists
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :}
+
+        - *Weiss* ch 17 "linked lists"
+        - *Weiss* ch 6.6 "stacks and queues"
+
+
+
+    - weekday: Thurs
+      date: "21/10/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+      topics:
+      - Big O notation
+      - Sorting and searching algorithms
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :}
+
+        - *Weiss* ch 5 "algorithm analysis"
+        - *Wiess* ch 8.5-8.6 "sorting algorithms"
+
+- weekNum: 3
+  weekTopic: Trees & recursion
+  days:
+    - weekday: Wed
+      date: "27/10/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+
+      topics:
+      - Recursion
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 7.1-7.5 "recursion"
+
+
+
+    - weekday: Thurs
+      date: "28/10/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+      topics:
+      - Trees and tree operations
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 18.1 "trees", ch 18.4 "tree traversals"
+
+
+- weekNum: 4
+  weekTopic: Trees & queues
+  days:
+    - weekday: Wed
+      date: "3/11/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+
+      topics:
+      - Binary Search trees and operations
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 19.1--19.3 "binary search trees"
+
+
+    - weekday: Thurs
+      date: "4/11/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+      topics:
+      - Priority queues and implementations
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :}
+
+        - *Weiss* ch 6.9 "priority queues" (specs)
+        - *Weiss* ch 21 "priority queues" (impl)
+        - *Weiss* ch 13.2 "event-driven simulation"
+
+
+- weekNum: 5
+  weekTopic: Graphs
+  days:
+    - weekday: Wed
+      date: "10/11/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+
+      topics:
+      - Graph implementations and operations
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :}
+
+        - *Weiss* ch 6 "the collections api"
+        - *Weiss* ch 14.1 "graphs and paths"
+
+
+    - weekday: Thurs
+      date: "11/11/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+
+      topics:
+      - Graph search
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        *Weiss* ch 14.1 "graphs and paths"
+
+
+- weekNum: 6
+  weekTopic: Graph algorithms
+  days:
+    - weekday: Wed
+      date: "17/11/2021"
+      times:
+      - "14:00 pm-14:45 pm"
+      - "14:55 pm-15:40 pm"
+      - "15:50 pm-16:35 pm"
+
+      topics:
+      - Minimum Spanning Trees and their algorithms
+      materials: |
+        <span>Textbook readings:</span>{: class="materials-subhead" :}
+
+        - *Weiss* ch 14.1 "graphs and paths"
+        - *Weiss* ch 14.5.1 "topological sorting"
+        - *Weiss* ch 24.2.2 "minimum spanning trees"
+
+    - weekday: Thurs
+      date: "18/11/2021"
+      times:
+      - "8:00 am-8:45 am"
+      - "8:55 am-9:40 am"
+      - "10:00 am-10:45 am"
+
+      topics:
+      - Revision
+      materials: |
+        &nbsp;
+
+
+
+
