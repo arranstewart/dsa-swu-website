@@ -15,19 +15,29 @@ weeks:
       - Abstract Data Types
 
       materials: |
-        <!--
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        <span class="materials-subhead">Textbook readings:</span>
+
         *Weiss* ch 5 "algorithm analysis"
 
         &nbsp; \
-        <span>Lecture slides:</span>{: class="materials-subhead" :} \
+        <span class="materials-subhead">Lecture slides:</span> \
         [week1-lecture-slides.zip][week1-slides]
 
-        [week1-slides]: lectures/week1-lecture-slides.zip
-        -->
+        [week1-slides]: {{ "/lectures/week1-lecture-slides.zip?a=b" | url }}
 
-        {{ "/docs/lectures/week1-lecture-slides.zip" | relative_url }}
+        &nbsp; \
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week1-wed-problems.docx][week1-wed-probs] \
+        [week1-problems-solutions.docx][week1-sols]
 
+        [week1-wed-probs]: {{ "/problem-sheets/week1-problems.docx?a=b" | url }}
+        [week1-sols]: {{ "/problem-sheets/week1-problems-solutions.docx?a=b" | url }}
+
+        &nbsp; \
+        <span class="materials-subhead">Source code:</span> \
+        [week1-code.zip][week1-code-zip]
+
+        [week1-code-zip]: {{ "/code/week1-code.zip?a=b" | url }}
 
     - weekday: Thurs
       date: "14/10/2021"
@@ -39,13 +49,17 @@ weeks:
       - Java interfaces and generic types
       - Implementing stacks and queues with arrays
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
-        *Weiss* ch 6.6 "stacks and queues"
+        <span class="materials-subhead">Textbook readings:</span>
 
+        - *Weiss* ch 17 "linked lists"
+        - *Weiss* ch 6.6 "stacks and queues"
+        - *Weiss* ch 5 "algorithm analysis"
+
+        <!-- -->
 
 
 - weekNum: 2
-  weekTopic: Lists & complexity
+  weekTopic: Complexity, sorting and searching
   days:
     - weekday: Wed
       date: "20/10/2021"
@@ -54,13 +68,39 @@ weeks:
       - "14:55 pm-15:40 pm"
       - "15:50 pm-16:35 pm"
       topics:
-      - Linked lists
-      - Implementing stacks and queues with linked lists
-      materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :}
+      - finish Linked lists
+      - Big O notation
+      - Java interfaces
+      - Sorting and searching algorithms
+      materials: |+
 
-        - *Weiss* ch 17 "linked lists"
-        - *Weiss* ch 6.6 "stacks and queues"
+        <span class="materials-subhead">Textbook readings:</span>
+
+        - *Weiss* ch 5 "algorithm analysis"
+        - *Wiess* ch 8.5-8.6 "sorting algorithms"
+        - *Weiss* ch 7.1-7.5 "recursion"
+
+        &nbsp; \
+        <span class="materials-subhead">Lecture slides:</span> \
+        [week2-lecture-slides.zip][week2-slides]
+
+        [week2-slides]: {{ "/lectures/week2-lecture-slides.zip?a=b" | url }}
+
+        <!-- -->
+
+        &nbsp; \
+        <span class="materials-subhead">Source code:</span> \
+        [week2-code.zip][week2-code-zip]
+
+        [week2-code-zip]: {{ "/code/week2-code.zip?a=b" | url }}
+
+        &nbsp; \
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week2-problems.docx][week2-probs] \
+        [week2-problems-solutions.docx][week2-sols]
+
+        [week2-probs]: {{ "/problem-sheets/week2-problems.docx?a=b" | url }}
+        [week2-sols]: {{ "/problem-sheets/week2-problems-solutions.docx?a=b" | url }}
 
 
 
@@ -71,16 +111,16 @@ weeks:
       - "8:55 am-9:40 am"
       - "10:00 am-10:45 am"
       topics:
-      - Big O notation
       - Sorting and searching algorithms
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :}
+        <span class="materials-subhead">Textbook readings:</span>
 
         - *Weiss* ch 5 "algorithm analysis"
         - *Wiess* ch 8.5-8.6 "sorting algorithms"
 
+        <!-- -->
 - weekNum: 3
-  weekTopic: Trees & recursion
+  weekTopic: Trees
   days:
     - weekday: Wed
       date: "27/10/2021"
@@ -91,10 +131,46 @@ weeks:
 
       topics:
       - Recursion
+      - Trees and tree operations
+      - Binary Search trees and operations
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
-        *Weiss* ch 7.1-7.5 "recursion"
+        <span class="materials-subhead">Textbook readings:</span>
 
+        - *Weiss* ch 7.1-7.5 "recursion"
+        - *Weiss* ch 18.1 "trees", ch 18.4 "tree traversals"
+        - *Weiss* ch 19.1--19.3 "binary search trees"
+
+        &nbsp; \
+        <span class="materials-subhead">Lecture slides:</span> \
+        [week3-lecture-slides.zip][week3-slides]
+
+        [week3-slides]: {{ "/lectures/week3-lecture-slides.zip?a=b" | url }}
+
+
+        <!-- -->
+
+        &nbsp; \
+        <span class="materials-subhead">Source code:</span> \
+        [week3-code.zip][week3-code-zip]
+
+        [week3-code-zip]: {{ "/code/week3-code.zip?a=b" | url }}
+
+        <!-- -->
+
+
+        &nbsp; \
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week3-problems.docx][week3-probs]
+        <!--
+        [week3-problems-solutions.docx][week3-sols]
+        -->
+
+        [week3-probs]: {{ "/problem-sheets/week3-problems.docx?a=b" | url }}
+        <!--
+        [week3-sols]: {{ "/problem-sheets/week3-problems-solutions.docx?a=b" | url }}
+        -->
+
+        &nbsp;
 
 
     - weekday: Thurs
@@ -104,10 +180,11 @@ weeks:
       - "8:55 am-9:40 am"
       - "10:00 am-10:45 am"
       topics:
-      - Trees and tree operations
+      - the collections API
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
-        *Weiss* ch 18.1 "trees", ch 18.4 "tree traversals"
+        <span class="materials-subhead">Textbook readings:</span>
+
+        *Weiss* ch 6 "the collections api"
 
 
 - weekNum: 4
@@ -123,7 +200,8 @@ weeks:
       topics:
       - Binary Search trees and operations
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        <span class="materials-subhead">Textbook readings:</span>
+
         *Weiss* ch 19.1--19.3 "binary search trees"
 
 
@@ -136,13 +214,13 @@ weeks:
       topics:
       - Priority queues and implementations
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :}
+        <span class="materials-subhead">Textbook readings:</span>
 
         - *Weiss* ch 6.9 "priority queues" (specs)
         - *Weiss* ch 21 "priority queues" (impl)
         - *Weiss* ch 13.2 "event-driven simulation"
 
-
+        <!-- -->
 - weekNum: 5
   weekTopic: Graphs
   days:
@@ -156,11 +234,12 @@ weeks:
       topics:
       - Graph implementations and operations
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :}
+        <span class="materials-subhead">Textbook readings:</span>
 
         - *Weiss* ch 6 "the collections api"
         - *Weiss* ch 14.1 "graphs and paths"
 
+        <!-- -->
 
     - weekday: Thurs
       date: "11/11/2021"
@@ -172,7 +251,8 @@ weeks:
       topics:
       - Graph search
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :} \
+        <span class="materials-subhead">Textbook readings:</span>
+
         *Weiss* ch 14.1 "graphs and paths"
 
 
@@ -189,12 +269,13 @@ weeks:
       topics:
       - Minimum Spanning Trees and their algorithms
       materials: |
-        <span>Textbook readings:</span>{: class="materials-subhead" :}
+        <span class="materials-subhead">Textbook readings:</span>
 
         - *Weiss* ch 14.1 "graphs and paths"
         - *Weiss* ch 14.5.1 "topological sorting"
         - *Weiss* ch 24.2.2 "minimum spanning trees"
 
+        <!-- -->
     - weekday: Thurs
       date: "18/11/2021"
       times:
