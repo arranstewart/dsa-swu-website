@@ -39,6 +39,16 @@ weeks:
 
         [week1-code-zip]: {{ "/code/week1-code.zip?a=b" | url }}
 
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-13-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-13-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-13-Wed-afternoonS-03]{ download target=_blank } &nbsp;
+
+        [DSA-2021-10-13-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-13-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-10-13-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-13-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-10-13-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-13-Wed-afternoonS-03.mp4" | url }}
+
     - weekday: Thurs
       date: "14/10/2021"
       times:
@@ -56,6 +66,16 @@ weeks:
         - *Weiss* ch 5 "algorithm analysis"
 
         <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-14-Thurs-morningS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-14-Thurs-morningS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-14-Thurs-morningS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-10-14-Thurs-morningS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-14-Thurs-morningS-01.mp4" | url }}
+        [DSA-2021-10-14-Thurs-morningS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-14-Thurs-morningS-02.mp4" | url }}
+        [DSA-2021-10-14-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week1/DSA-2021-10-14-Thurs-morningS-03.mp4" | url }}
 
 
 - weekNum: 2
@@ -102,6 +122,19 @@ weeks:
         [week2-probs]: {{ "/problem-sheets/week2-problems.docx?a=b" | url }}
         [week2-sols]: {{ "/problem-sheets/week2-problems-solutions.docx?a=b" | url }}
 
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-20-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-20-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-20-Wed-afternoonS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-10-20-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-20-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-10-20-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-20-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-10-20-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-20-Wed-afternoonS-03.mp4" | url }}
+
+
 
 
     - weekday: Thurs
@@ -117,6 +150,19 @@ weeks:
 
         - *Weiss* ch 5 "algorithm analysis"
         - *Wiess* ch 8.5-8.6 "sorting algorithms"
+
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-21-Thurs-morningS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-21-Thurs-morningS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-21-Thurs-morningS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-10-21-Thurs-morningS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-21-Thurs-morningS-01.mp4" | url }}
+        [DSA-2021-10-21-Thurs-morningS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-21-Thurs-morningS-02.mp4" | url }}
+        [DSA-2021-10-21-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week2/DSA-2021-10-21-Thurs-morningS-03.mp4" | url }}
+
 
         <!-- -->
 - weekNum: 3
@@ -172,6 +218,18 @@ weeks:
 
         &nbsp;
 
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-27-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-27-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-27-Wed-afternoonS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-10-27-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-27-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-10-27-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-27-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-10-27-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-27-Wed-afternoonS-03.mp4" | url }}
+
 
     - weekday: Thurs
       date: "28/10/2021"
@@ -186,6 +244,18 @@ weeks:
 
         *Weiss* ch 6 "the collections api"
 
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-10-28-Thurs-morningS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-10-28-Thurs-morningS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-10-28-Thurs-morningS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-10-28-Thurs-morningS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-28-Thurs-morningS-01.mp4" | url }}
+        [DSA-2021-10-28-Thurs-morningS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-28-Thurs-morningS-02.mp4" | url }}
+        [DSA-2021-10-28-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week3/DSA-2021-10-28-Thurs-morningS-03.mp4" | url }}
+
 
 - weekNum: 4
   weekTopic: Trees & queues
@@ -198,11 +268,60 @@ weeks:
       - "15:50 pm-16:35 pm"
 
       topics:
-      - Binary Search trees and operations
+      - Priority queues and implementations
       materials: |
         <span class="materials-subhead">Textbook readings:</span>
 
-        *Weiss* ch 19.1--19.3 "binary search trees"
+        - *Weiss* ch 6.9 "priority queues" (specs)
+        - *Weiss* ch 21 "priority queues" (impl)
+        - *Weiss* ch 13.2 "event-driven simulation"
+
+        &nbsp; \
+        <span class="materials-subhead">Lecture slides:</span> \
+        [week4-lecture-slides.zip][week4-slides]
+
+        [week4-slides]: {{ "/lectures/week4-lecture-slides.zip?a=b" | url }}
+
+        <!-- -->
+
+        &nbsp; \
+        <span class="materials-subhead">Source code:</span> \
+        [week4-code.zip][week4-code-zip]
+
+        [week4-code-zip]: {{ "/code/week4-code.zip?a=b" | url }}
+
+        <!-- -->
+
+
+        &nbsp; \
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week4-problems.docx][week4-probs]
+        <!--
+        [week4-problems-solutions.docx][week4-sols]
+        -->
+
+        [week4-probs]: {{ "/problem-sheets/week4-problems.docx?a=b" | url }}
+        <!--
+        [week4-sols]: {{ "/problem-sheets/week4-problems-solutions.docx?a=b" | url }}
+        -->
+
+        &nbsp;
+
+        &nbsp;
+
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-11-03-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-11-03-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-11-03-Wed-afternoonS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-11-03-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-03-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-11-03-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-03-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-11-03-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-03-Wed-afternoonS-03.mp4" | url }}
+
+
 
 
     - weekday: Thurs
@@ -219,8 +338,24 @@ weeks:
         - *Weiss* ch 6.9 "priority queues" (specs)
         - *Weiss* ch 21 "priority queues" (impl)
         - *Weiss* ch 13.2 "event-driven simulation"
+        - *Weiss* ch 14.1 "graphs and paths"
 
         <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-11-04-Thurs-morningS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-11-04-Thurs-morningS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-11-04-Thurs-morningS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-11-04-Thurs-morningS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-04-Thurs-morningS-01.mp4" | url }}
+        [DSA-2021-11-04-Thurs-morningS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-04-Thurs-morningS-02.mp4" | url }}
+        [DSA-2021-11-04-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week4/DSA-2021-11-04-Thurs-morningS-03.mp4" | url }}
+
+        <!-- -->
+
+
+
 - weekNum: 5
   weekTopic: Graphs
   days:
@@ -236,10 +371,49 @@ weeks:
       materials: |
         <span class="materials-subhead">Textbook readings:</span>
 
-        - *Weiss* ch 6 "the collections api"
         - *Weiss* ch 14.1 "graphs and paths"
+        - *Weiss* ch 24.2.2 "minimum spanning trees"
 
         <!-- -->
+
+
+        &nbsp; \
+        <span class="materials-subhead">Lecture slides:</span> \
+        [week5-lecture-slides.zip][week5-slides]
+
+        [week5-slides]: {{ "/lectures/week5-lecture-slides.zip?a=b" | url }}
+
+
+        &nbsp; \
+        <span class="materials-subhead">Source code:</span> \
+        [week5-code.zip][week5-code-zip]
+
+        [week5-code-zip]: {{ "/code/week5-code.zip?a=b" | url }}
+
+        &nbsp;
+
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week5-wed-problems.docx][week5-wed-probs]
+
+        [week5-wed-probs]: {{ "/problem-sheets/week5-problems.docx?a=b" | url }}
+        [week5-sols]: {{ "/problem-sheets/week5-problems-solutions.docx?a=b" | url }}
+
+        &nbsp;
+
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-11-10-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-11-10-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-11-10-Wed-afternoonS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-11-10-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-10-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-11-10-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-10-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-11-10-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-10-Wed-afternoonS-03.mp4" | url }}
+
+
+
 
     - weekday: Thurs
       date: "11/11/2021"
@@ -255,6 +429,17 @@ weeks:
 
         *Weiss* ch 14.1 "graphs and paths"
 
+        <!-- -->
+        &nbsp; \
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-11-11-Thurs-morningS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-11-11-Thurs-morningS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-11-11-Thurs-morningS-03]{ download target=_blank } &nbsp;
+
+
+        [DSA-2021-11-11-Thurs-morningS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-11-Thurs-morningS-01.mp4" | url }}
+        [DSA-2021-11-11-Thurs-morningS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-11-Thurs-morningS-02.mp4" | url }}
+        [DSA-2021-11-11-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-11-Thurs-morningS-03.mp4" | url }}
 
 - weekNum: 6
   weekTopic: Graph algorithms
