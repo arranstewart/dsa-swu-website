@@ -424,10 +424,13 @@ weeks:
 
       topics:
       - Graph search
+      - Minimum Spanning Trees and their algorithms
       materials: |
         <span class="materials-subhead">Textbook readings:</span>
 
-        *Weiss* ch 14.1 "graphs and paths"
+        - *Weiss* ch 14.1 "graphs and paths"
+        - *Weiss* ch 14.5.1 "topological sorting"
+        - *Weiss* ch 24.2.2 "minimum spanning trees"
 
         <!-- -->
         &nbsp; \
@@ -442,7 +445,7 @@ weeks:
         [DSA-2021-11-11-Thurs-morningS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-11-Thurs-morningS-03.mp4" | url }}
 
 - weekNum: 6
-  weekTopic: Graph algorithms
+  weekTopic: Revision
   days:
     - weekday: Wed
       date: "17/11/2021"
@@ -452,27 +455,45 @@ weeks:
       - "15:50 pm-16:35 pm"
 
       topics:
-      - Minimum Spanning Trees and their algorithms
+      - Revision topics and problems
       materials: |
-        <span class="materials-subhead">Textbook readings:</span>
 
-        - *Weiss* ch 14.1 "graphs and paths"
-        - *Weiss* ch 14.5.1 "topological sorting"
-        - *Weiss* ch 24.2.2 "minimum spanning trees"
 
-        <!-- -->
-    - weekday: Thurs
-      date: "18/11/2021"
-      times:
-      - "8:00 am-8:45 am"
-      - "8:55 am-9:40 am"
-      - "10:00 am-10:45 am"
+        &nbsp; \
+        <span class="materials-subhead">Lecture slides:</span> \
+        [week6-lecture-slides.zip][week6-slides]
 
-      topics:
-      - Revision
-      materials: |
+        [week6-slides]: {{ "/lectures/week6-lecture-slides.zip?a=b" | url }}
+
+        &nbsp;
+
+        <span class="materials-subhead">Problem sheet:</span> \
+        [week6-wed-problems.docx][week6-wed-probs]
+
+        [week6-wed-probs]: {{ "/problem-sheets/week6-problems.docx?a=b" | url }}
+
+        <!--
+        [week6-sols]: {{ "/problem-sheets/week6-problems-solutions.docx?a=b" | url }}
+        -->
+
         &nbsp;
 
 
+        <!-- -->
+
+
+#    - weekday: Thurs
+#      date: "18/11/2021"
+#      times:
+#      - "8:00 am-8:45 am"
+#      - "8:55 am-9:40 am"
+#      - "10:00 am-10:45 am"
+#
+#      topics:
+#      - Revision
+#      materials: |
+#        &nbsp;
+#
+#
 
 
