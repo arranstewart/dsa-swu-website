@@ -206,15 +206,11 @@ weeks:
 
         &nbsp; \
         <span class="materials-subhead">Problem sheet:</span> \
-        [week3-problems.docx][week3-probs]
-        <!--
+        [week3-problems.docx][week3-probs] \
         [week3-problems-solutions.docx][week3-sols]
-        -->
 
         [week3-probs]: {{ "/problem-sheets/week3-problems.docx?a=b" | url }}
-        <!--
         [week3-sols]: {{ "/problem-sheets/week3-problems-solutions.docx?a=b" | url }}
-        -->
 
         &nbsp;
 
@@ -295,15 +291,11 @@ weeks:
 
         &nbsp; \
         <span class="materials-subhead">Problem sheet:</span> \
-        [week4-problems.docx][week4-probs]
-        <!--
+        [week4-problems.docx][week4-probs] \
         [week4-problems-solutions.docx][week4-sols]
-        -->
 
         [week4-probs]: {{ "/problem-sheets/week4-problems.docx?a=b" | url }}
-        <!--
         [week4-sols]: {{ "/problem-sheets/week4-problems-solutions.docx?a=b" | url }}
-        -->
 
         &nbsp;
 
@@ -393,7 +385,8 @@ weeks:
         &nbsp;
 
         <span class="materials-subhead">Problem sheet:</span> \
-        [week5-wed-problems.docx][week5-wed-probs]
+        [week5-wed-problems.docx][week5-wed-probs] \
+        [week5-problems-solutions.docx][week5-sols]
 
         [week5-wed-probs]: {{ "/problem-sheets/week5-problems.docx?a=b" | url }}
         [week5-sols]: {{ "/problem-sheets/week5-problems-solutions.docx?a=b" | url }}
@@ -468,32 +461,21 @@ weeks:
         &nbsp;
 
         <span class="materials-subhead">Problem sheet:</span> \
-        [week6-wed-problems.docx][week6-wed-probs]
+        [week6-wed-problems.docx][week6-wed-probs] \
+        [week6-problems-solutions.docx][week6-sols]
 
         [week6-wed-probs]: {{ "/problem-sheets/week6-problems.docx?a=b" | url }}
-
-        <!--
         [week6-sols]: {{ "/problem-sheets/week6-problems-solutions.docx?a=b" | url }}
-        -->
 
         &nbsp;
 
+        <span class="materials-subhead">Lecture recordings:</span> \
+        [segment 1 (mp4)][DSA-2021-11-17-Wed-afternoonS-01]{ download target=_blank } &nbsp;
+        [segment 2 (mp4)][DSA-2021-11-17-Wed-afternoonS-02]{ download target=_blank } &nbsp;
+        [segment 3 (mp4)][DSA-2021-11-17-Wed-afternoonS-03]{ download target=_blank } &nbsp;
 
-        <!-- -->
-
-
-#    - weekday: Thurs
-#      date: "18/11/2021"
-#      times:
-#      - "8:00 am-8:45 am"
-#      - "8:55 am-9:40 am"
-#      - "10:00 am-10:45 am"
-#
-#      topics:
-#      - Revision
-#      materials: |
-#        &nbsp;
-#
-#
+        [DSA-2021-11-17-Wed-afternoonS-01]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-17-Wed-afternoonS-01.mp4" | url }}
+        [DSA-2021-11-17-Wed-afternoonS-02]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-17-Wed-afternoonS-02.mp4" | url }}
+        [DSA-2021-11-17-Wed-afternoonS-03]: {{ "https://teaching.csse.uwa.edu.au/units/DSA-SWU/videos/week5/DSA-2021-11-17-Wed-afternoonS-03.mp4" | url }}
 
 
