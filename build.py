@@ -56,7 +56,6 @@ verbose_run(cmd, check=False)
 
 # main image
 cmd = f"""docker build --pull -f Dockerfile
-  --cache-from {gh_image_id}:{version}-builder
   --cache-from {gh_image_id}:{version}
   -t {gh_image_id}:{version}""".split()
 
