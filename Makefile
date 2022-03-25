@@ -4,6 +4,27 @@
         print-docker-hub-image kill \
         clean
 
+#####
+# user-facing variables
+
+# override this with e.g.
+#     make BUILD_ENVIRONMENT=production build
+# or
+#     make BUILD_ENVIRONMENT=gh-pages build
+# as needed.
+#
+# recognized values are:
+# - development
+# - production
+# - gh-pages
+#
+# The eleventy config file will set base URL as
+# appropriate.
+BUILD_ENVIRONMENT=development
+
+
+#####
+
 SHELL=bash
 
 # docker bits
@@ -30,8 +51,7 @@ OUT_DIR = $$PWD/out
 #DEBUG_FLAGS=DEBUG='*'
 # change this to 'development' to use that environment
 # for the build
-ENVIRO_FLAGS=ELEVENTY_ENV=production
-#ENVIRO_FLAGS=ELEVENTY_ENV=development
+ENVIRO_FLAGS=ELEVENTY_ENV=$(BUILD_ENVIRONMENT)
 CTR_NAME=eleventy
 
 
@@ -58,16 +78,9 @@ kill_:
 kill:
 	make kill_ 2>/dev/null>/dev/null
 
-########
-####
-### ENABLE ON GITHUB:
-#
-#pullfirst = -$(DOCKER) pull $(IMG)
-###
-#####
-##########
-
-# !!!!
+ifeq ($(BUILD_ENVIRONMENT),gh-pages)
+pullfirst = -$(DOCKER) pull $(IMG)
+endif
 
 
 # quick-and-dirty serve, for local use

@@ -1,10 +1,10 @@
 // .eleventy.js in the project root
 
-const isProduction = process.env.ELEVENTY_ENV === 'production';
+const buildEnviron = process.env.ELEVENTY_ENV;
 
-//const nunjucks = require('nunjucks');
-const yaml = require("js-yaml");
- const fs          = require('fs');
+//const nunjucks  = require('nunjucks');
+const yaml        = require("js-yaml");
+const fs          = require('fs');
 // nice formatting of dates and times
 // (deprecated, but still works)
 const moment      = require('moment');
@@ -13,7 +13,7 @@ moment.locale('en-GB');
 module.exports = function(eleventyConfig) {
   // Customizations go here
 
-  console.log("whether using production env:", isProduction);
+  console.log("build environment:", buildEnviron);
 
   ////
   // markdown-it package and plugins
@@ -160,6 +160,13 @@ module.exports = function(eleventyConfig) {
   ////
   // eleventy options
 
+  let path_prefix = "/"; //default
+  if (buildEnviron == "production") {
+    path_prefix = "/units/DSA-SWU";
+  } else if (buildEnviron == "gh-pages") {
+    path_prefix = "/dsa-swu-website";
+  }
+
   return {
     // When a passthrough file is modified, rebuild the pages:
     passthroughFileCopy: true,
@@ -176,7 +183,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     // use this to shift base url if
     // deploying to somewhere below root (/)
-    pathPrefix: isProduction ? '/units/DSA-SWU/' : '/'
+    pathPrefix: path_prefix
   };
 }
 

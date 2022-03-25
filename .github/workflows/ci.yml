@@ -3,13 +3,21 @@ name: build docker image
 on:
   repository_dispatch:
   push:
-    branches:
-      - master
     paths-ignore:
       - '.gitignore'
       - '.dockerignore'
       - 'README.md'
       - 'LICENSE'
+  pull_request:
+    paths-ignore:
+      - '.gitignore'
+      - '.dockerignore'
+      - 'README.md'
+      - 'LICENSE'
+  release:
+    types:
+      - created
+
 
 env:
   REGISTRY: ghcr.io
@@ -132,16 +140,28 @@ jobs:
         run: |
           set -x
           make IMG=${{ env.REGISTRY }}/${{ github.repository }}/dsa-website:latest \
-            build
-
-          ls -alt
+               BUILD_ENVIRONMENT=gh-pages \
+                  build
           sudo ls -alt `sudo find out -type f | sort`
 
-      #- name: Deploy
-      #  uses: peaceiris/actions-gh-pages@v3
-      #  with:
-      #    github_token: ${{ secrets.GITHUB_TOKEN }}
-      #    publish_dir: ./out/_site
-      #    force_orphan: true
+      # gh-pages does also get archived, but branches etc may not
+      # end up being pushed there.
+      - name: archive built site
+        uses: actions/upload-artifact@v2
+        with:
+          name: dsa-website-built
+          path: out
+
+      - name: ref name
+        shell: bash
+        run: |
+          echo github ref is "${{ github.ref }}"
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out/_site
+          force_orphan: true
 
 

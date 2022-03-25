@@ -24,3 +24,12 @@ Requires GNU make and docker, in order to build and serve locally.
 - serve locally: `make serve`
 - build: `make build`
 
+Pass the BUILD_ENVIRONMENT variable to `make` to specify whether
+you want the `development`, `production` or `gh-pages` environment.
+
+e.g.
+
+```
+$ make BUILD_ENVIRONMENT=gh-pages build
+```
+
