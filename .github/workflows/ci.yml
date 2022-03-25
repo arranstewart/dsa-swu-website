@@ -32,6 +32,7 @@ jobs:
       - uses: dorny/paths-filter@v2
         id: docker_img_changes
         with:
+          base: "${{ github.ref }}"
           filters: |
             src:
               - 'Dockerfile'
@@ -150,15 +151,11 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: dsa-website-built
-          path: out
-
-      - name: ref name
-        shell: bash
-        run: |
-          echo github ref is "${{ github.ref }}"
+          path: ./out/_site
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/v')
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out/_site
